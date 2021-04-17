@@ -1,0 +1,30 @@
+.challenge {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.coin {
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.light-bulb {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.off {
+    background-color: gray;
+}
+
+.on {
+    background-color: goldenrod;
+}
+
