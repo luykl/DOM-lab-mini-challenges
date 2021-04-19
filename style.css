@@ -5,6 +5,8 @@
     border-bottom: 2px solid black;
 }
 
+
+
 .coin {
     text-align: center;
     border-radius: 50%;
@@ -35,11 +37,19 @@
     width: 80px;
 }
 
+#coins-here {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 .light-bulb {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: gray;
+    margin-bottom: 6px;;
 }
 
 .off {
@@ -50,10 +60,7 @@
     background-color: goldenrod;
 }
 
-#coins-here {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 
 

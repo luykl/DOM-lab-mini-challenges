@@ -42,7 +42,7 @@ moneyForm.addEventListener("submit", (e) => {
     for (let i = 0; i < howMany; i++) {
         let coin = document.createElement("div");
         coin.classList.add("coin");
-        coin.classList.add(`${whichCoin}`);
+        coin.classList.add(whichCoin);
         coin.innerText = whichCoin;
         coinsHere.append(coin);
         coin.addEventListener("click", (event) => {
@@ -62,7 +62,6 @@ let end = document.getElementById("end");
 
 on.addEventListener("click", () => {
     lightBulb.classList.add("on");
-    lightBulb.classList.remove("off");
 });
 
 off.addEventListener("click", () => {
