@@ -41,6 +41,7 @@ moneyForm.addEventListener("submit", (e) => {
     for (let i = 0; i < howMany; i++) {
         let coin = document.createElement("div");
         coin.classList.add("coin");
+        coin.classList.add(`${whichCoin}`);
         coin.innerText = whichCoin;
         coinsHere.append(coin);
         coin.addEventListener("click", (event) => {
