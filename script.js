@@ -6,27 +6,28 @@ const fruitGummies = document.getElementById("fruit-gummies");
 let displayTotal = document. getElementById("total-cost")
 let totalCost = 0
 
+function addToTotal (itemPrice) {
+    totalCost = totalCost + itemPrice;
+    displayTotal.innerText = totalCost;
+}
 
 limeCola.addEventListener("click", () => {
-    totalCost = totalCost + 2;
-    displayTotal.innerText = totalCost;
-    console.log(totalCost);
+    addToTotal(2);
 });
+
 saltedPeanuts.addEventListener("click", () => {
-    totalCost = totalCost + 3;
-    displayTotal.innerText = totalCost;
-    console.log(totalCost);
+    addToTotal(3);
 });
+
 chocolateBar.addEventListener("click", () => {
-    totalCost = totalCost + 4;
-    displayTotal.innerText = totalCost;
-    console.log(totalCost);
+    addToTotal(4);
 });
+
 fruitGummies.addEventListener("click", () => {
-    totalCost = totalCost + 6;
-    displayTotal.innerText = totalCost;
-    console.log(totalCost);
+    addToTotal(6);
 });
+
+
 
 //challenge 2
 let moneyForm = document.querySelector("form");
